@@ -1,0 +1,34 @@
+
+
+h1::after
+{
+    content: 'After Element';
+    background-color: hotpink;
+   
+}
+
+
+h3::before
+{
+    content: 'before Element';
+    background-color: hotpink;
+   
+}
+
+
+p::first-letter {
+    font-size: 200%;
+    color: #8A2BE2;
+  }
+
+  ::marker
+  {
+      color: indigo;
+  }
+
+
+  span::selection
+  {
+    color: red;
+    background: yellow;
+  }

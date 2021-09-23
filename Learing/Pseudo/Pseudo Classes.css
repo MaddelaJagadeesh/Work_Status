@@ -1,0 +1,109 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root
+{
+  background: grey;
+
+
+}
+
+body
+{
+    margin: 40px auto;
+    font-size: 20px;
+
+}
+
+/* ----------------active class--------------------- */
+
+a:active
+{
+    color: green;
+}
+
+a:hover
+{
+    color: indigo;
+    opacity: 0.4;
+}
+
+a:visited {
+    color: orange;
+  }
+
+  a:active {
+    color: blue;
+  }
+
+  
+  a:link {
+    background-color: red;
+  }
+/* --------------------checed class------------------------- */
+
+  input:checked {
+    height: 20px;
+    width: 20px;
+  }
+
+  /* --------------------Disabled enabled class------------------------- */
+
+  input[type=text]:enabled
+  {
+      background-color: rgb(43, 255, 0);
+      color: papayawhip;
+  }
+
+  input[type=text]:disabled
+  {
+      background-color: red;
+  }  
+
+
+  /* -------------- first & last child class-------------------- */
+
+  p:first-child
+  {
+      color:whitesmoke;
+      background-color: red;
+  }
+
+  /* --------------- first-of-type---------------- */
+
+  p:first-of-type {
+    background: red;
+  }
+
+ /* --------------- hover---------------- */
+
+ button:hover
+ {
+     padding: 10px 12px;
+     background-color: red;
+     color: whitesmoke;
+ }
+
+/* --------------------range selector---------- */
+
+ input:in-range {
+  border: 2px solid yellow;
+}
+
+.last span:last-child {
+  background: #ff0000;
+}
+
+
+/* --------------target--------------- */
+
+:target
+{
+  background-color: hotpink;
+  border: 2px solid #D4D4D4;
+}
