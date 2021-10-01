@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width:100px;
+            height: 100px;
+            background-color: slateblue;
+            margin: 10px;
+        }
+
+        div[class$="flower"] {
+            width: 100px;
+            height: 100px;
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <h2>[attribute $= value] </h2>
+    <!-- target element only ends with specified value -->
+
+    <div class="card flower"></div>
+    
+    <div class="car"></div>
+
+    <div class="flower jeep"></div>
+
+    <div class="wave"></div>
+
+    <div class="flower"></div>
+</body>
+</html>

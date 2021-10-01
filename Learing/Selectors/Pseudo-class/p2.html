@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type="radio"]:checked,
+        input[type="checkbox"]:checked
+         {
+            color:orange;
+            box-shadow: 0px 0px 10px 3px orangered;
+        }
+
+    </style>
+</head>
+<body>
+    <h3>:checked</h3>
+
+    <form action="">
+        <label for="">Gender</label>
+        <input type="radio" name="gender" id="gender" value="male"> Male
+        <input type="radio" name="gender" id="gender" value="female"> FeMale
+    </form>
+
+    <hr>
+
+    <form action="">
+        <input type="checkbox" name="stmt" id="stmt"> I agree all terms and conditions
+    </form>
+</body>
+</html>

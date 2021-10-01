@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav a[target]{
+            color:slateblue;
+            font-weight: bold;
+            text-decoration: none;
+            background-color: orange;
+            padding: 12px 14px;
+        }
+
+        nav a[target="_blank"] {
+            color:deeppink;
+            font-weight: bold;
+            float: right;
+            padding:12px 14px;
+            background-color: gold;
+        }
+    </style>
+</head>
+<body>
+    <h3>element[target]</h3>
+
+    <nav>
+        <a href="#" target="_top" >Home</a>
+        <a href="#" target="_parent" >About</a>
+        <a href="#" target="_self" >Contact</a>
+        <a href="#" target="_blank" >Login</a>
+    </nav>
+</body>
+</html>

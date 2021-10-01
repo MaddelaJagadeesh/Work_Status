@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type="number"] {
+            width:150px;
+            padding: 12px;
+        }
+
+        input:in-range {
+            border:4px solid greenyellow;
+            background-color: greenyellow;
+        }
+
+        input:out-of-range {
+            border:4px solid orangered;
+            background-color: orangered;
+        }
+
+        input:in-range + span::after {
+            content: "valid input";
+            color: greenyellow;
+        }
+
+        input:out-of-range + span::before {
+            content: "Not a valid input";
+            color:orangered;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="">Weight</label>
+        <input type="number" name="weight" placeholder="1 to 100" min="1" max="100" value="20">
+    </form>
+</body>
+</html>

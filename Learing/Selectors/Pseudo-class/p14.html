@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :lang(en) > q {
+            quotes: '<< ' ' >>' ;
+        }
+
+        /* only in firefox */
+        div:dir(ltr) {
+            background-color: yellow !important;
+        }
+
+        :dir(rtl) {
+            background-color: slateblue !important;
+        }
+    </style>
+</head>
+<body>
+
+    <h3>:lang (Linguistic) </h3>
+
+    <div lang="en">
+        this is english quote <q>nested</q> quote inside
+    </div>
+
+    <hr>
+
+    <div dir="rtl" >
+        <span>Test 1</span>
+        <div dir="ltr">
+            Test 2
+            <div dir="auto">
+                עִבְרִית
+            </div>
+        </div>
+    </div>
+</body>
+</html>

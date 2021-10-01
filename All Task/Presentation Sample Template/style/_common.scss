@@ -1,0 +1,24 @@
+//main: main.scss
+
+
+.btn-primary {
+    padding: 10px 30px;
+    border-radius: 21px;
+    border: none;
+    background-color: $btnBg;
+    color: $color;
+    font-size: $font-size_18;
+  }
+
+.about-info
+{
+    font-size: $font-size_22;
+    background-color: $light-bg-color;
+    color: $btnBg;
+    font-weight: $font-weight;
+    padding: 10px 12px;
+    margin: 20px;
+    display: inline-block;
+    margin-left: 4px;
+}
+

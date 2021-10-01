@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul li {
+            list-style: none;
+            padding: 12px;
+        }
+
+        ul li::before {
+            content: "Mr. ";
+            color:orangered;
+            font-family: fantasy;
+        }
+
+        ul li::after {
+            content: " welcome to css";
+        }
+    </style>
+</head>
+<body>
+    <h3>::before and ::after</h3>
+
+    <ul>
+        <li>Manoj</li>
+        <li>Ramesh</li>
+        <li>Kumar</li>
+    </ul>
+</body>
+</html>

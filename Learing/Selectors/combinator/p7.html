@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card { border:2px solid #222; }
+        /* Adjacent sibling */
+        .card + h3 {
+            color:deeppink;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h3>element + element </h3>
+    <!-- after div it will select only one sibling -->
+
+    <div class="card">
+        <h3>Welcome to card heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, possimus alias magnam ipsam quisquam adipisci dolor aut ullam sit maiores? Neque cum ipsa nostrum accusamus, accusantium nobis est perferendis fuga!</p>
+        <div class="subcard">
+            <h3>sub card header</h3>
+        </div>
+        <h3>Another sample</h3>
+    </div>
+
+    <h3>Welcome to another h3</h3>
+    <h3>Welcome to another h3</h3>
+    <h3>Welcome to another h3</h3>
+</body>
+</html>

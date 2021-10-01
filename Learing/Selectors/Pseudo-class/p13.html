@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body { display: flex; }
+
+        div {
+            height: 300px;
+            width: 100% auto;
+            padding:20px;
+        }
+
+        div:target {
+            background-color: teal;
+            color:#ccc;
+        }
+    </style>
+</head>
+<body>
+    <h3>:target</h3>
+
+    <h3><a href="#sec1">Sec 1</a></h3>
+    <h3><a href="#sec2">Sec 2</a></h3>
+
+    <div id="sec1">
+        <h1>Section 1 header</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro voluptate nemo fugit aperiam, doloribus perspiciatis quidem officia ad id, non numquam mollitia tempore at esse illum facere, sit consequuntur ipsam!</p>
+    </div>
+
+    <div id="sec2">
+        <h1>Section 2 header</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur ipsum qui iusto autem quisquam soluta, ipsam corrupti eveniet, enim magni porro! Asperiores quia sed soluta similique officia impedit. At, ipsum.</p>
+    </div>
+</body>
+</html>

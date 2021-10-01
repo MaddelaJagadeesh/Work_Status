@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: georgia;
+  height: 1000px;
+
+  .fixed {
+    position: fixed;
+    background: #f83d23;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    right: 0;
+  }
+
+  .sticky {
+    position: sticky;
+    background: #f83d23;
+    width: 100px;
+    height: 100px;
+  }
+}
